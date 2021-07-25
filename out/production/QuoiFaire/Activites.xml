@@ -1,12 +1,12 @@
 <root>
     <Activite nom="Pompes" duree_min="5" duree_max="10" constructif="8"
-                energie_physique="9" energie_mentale="5" defoulement="6" relaxation="0"></Activite>
-    <Activite nom="Écouter musique" duree_min="10" duree_max="80" constructif="1"
-                energie_physique="0" energie_mentale="3" defoulement="4" relaxation="9"></Activite>
+              energie_physique="9" energie_mentale="5" defoulement="6" relaxation="0"/>
+    <Activite nom="Écouter musique" duree_min="40" duree_max="80" constructif="0"
+              energie_physique="0" energie_mentale="3" defoulement="4" relaxation="9"/>
     <Activite nom="Lecture roman/BD/Roman virtuel" duree_min="30" duree_max="120" constructif="3"
-                energie_physique="1" energie_mentale="6" defoulement="4" relaxation="8"></Activite>
+              energie_physique="1" energie_mentale="6" defoulement="4" relaxation="8"/>
     <Activite nom="Lecture complexe (prog, philo, histoire)" duree_min="45" duree_max="120" constructif="8"
-                energie_physique="1" energie_mentale="10" defoulement="0" relaxation="7"></Activite>
+              energie_physique="1" energie_mentale="10" defoulement="0" relaxation="7"/>
     <Activite nom="Jeu vidéo de flingues" duree_min="30" duree_max="180" constructif="0"
                 energie_physique="5" energie_mentale="5" defoulement="10" relaxation="5"/>
     <Activite nom="Sortie promenade" duree_min="90" duree_max="300" constructif="3"
@@ -29,6 +29,10 @@
                 energie_physique="7" energie_mentale="7" defoulement="0" relaxation="0"/>
     <Activite nom="Famille (téléphoner, écrire carte, réfléchir cadeau...)" duree_min="20" duree_max="60" 
 				constructif="7" energie_physique="2" energie_mentale="7" defoulement="0" relaxation="5"/>
-    <Activite nom="Ranger/tâches ménagères/ranger pc..." duree_min="20" duree_max="60" constructif="9"
+    <Activite nom="Ranger / tâches ménagères / ranger pc..." duree_min="20" duree_max="60" constructif="9"
                 energie_physique="9" energie_mentale="5" defoulement="0" relaxation="2"/>
+    <Activite nom="Tâches extérieures (courses, " duree_min="30" duree_max="90" constructif="9"
+                energie_physique="7" energie_mentale="6" defoulement="0" relaxation="0"/>
+    <Activite nom="Guitare" duree_min="10" duree_max="30" constructif="7"
+                energie_physique="7" energie_mentale="7" defoulement="0" relaxation="4"/>
 </root>
