@@ -10,15 +10,13 @@
     <Activite nom="Jeu vidéo de flingues" duree_min="30" duree_max="180" constructif="0"
                 energie_physique="5" energie_mentale="5" defoulement="10" relaxation="5"/>
     <Activite nom="Sortie promenade" duree_min="90" duree_max="300" constructif="3"
-                energie_physique="6" energie_mentale="5" defoulement="6" relaxation="6"/>
+                energie_physique="6" energie_mentale="5" defoulement="1" relaxation="6"/>
     <Activite nom="Jeu vidéo stratégie" duree_min="60" duree_max="180" constructif="1"
                 energie_physique="2" energie_mentale="6" defoulement="7" relaxation="3"/>
     <Activite nom="Sieste" duree_min="60" duree_max="540" constructif="8"
                 energie_physique="0" energie_mentale="0" defoulement="0" relaxation="9"/>
-    <Activite nom="Programmer (moteur destin, match3, destin quelconque...)" duree_min="60" duree_max="180" constructif="10"
+    <Activite nom="Programmer (moteur destin, match3, destin quelconque...)" duree_min="60" duree_max="180" constructif="8"
                 energie_physique="3" energie_mentale="9" defoulement="0" relaxation="0"/>
-    <Activite nom="Lire mag science" duree_min="20" duree_max="45" constructif="7"
-                energie_physique="1" energie_mentale="7" defoulement="0" relaxation="3"/>
     <Activite nom="Lecture articles web" duree_min="20" duree_max="50" constructif="5"
                 energie_physique="2" energie_mentale="5" defoulement="5" relaxation="3"/>
     <Activite nom="Écrire (GD, wiki...)" duree_min="45" duree_max="180" constructif="9"
