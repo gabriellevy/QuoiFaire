@@ -15,6 +15,7 @@ public class QuoiFaire {
     private JTextArea resText;
     private JTextField champsTexteTemps;
     private JLabel labelTemps;
+    public static int INVALIDE = 9999;
 
     ArrayList<Activite> activites_ = new ArrayList<>();
 
@@ -48,7 +49,10 @@ public class QuoiFaire {
 
         String res = "";
         for (Activite act:activites_ ) {
-            res = res + act.nom_ + " : " + act.score_ + "\n";
+            if (act.score_ == INVALIDE)
+                res = res + " x INVALIDE x " + act.nom_ + " : " + act.score_ + "\n";
+            else
+                res = res + act.nom_ + " : " + act.score_ + "\n";
         }
 
         return res;

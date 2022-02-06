@@ -36,7 +36,7 @@ public class Activite  implements Comparator< Activite > {
      */
     public void CalculerScore(int tempsDispo, int constructif, int energie_physique, int energie_mentale, int defoulement, int relaxation) {
         if (tempsDispo < duree_min_ )
-            score_ = -1;
+            score_ = QuoiFaire.INVALIDE;
         else
             score_ = Math.abs(constructif - constructif_) +
                 Math.abs(energie_physique - energie_physique_) +
